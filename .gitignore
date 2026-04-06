@@ -1,8 +1,19 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
+# Plugins (lazy.nvim / packer / etc.)
+lazy/
+pack/
+site/
+
+# Plugin manager files
+lazy-lock.json
+
+# Logs & temp
 *.log
-data
+*.tmp
+
+# Swap files
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
